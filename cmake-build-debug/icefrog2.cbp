@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="icefrog2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icefrog2">
+				<Option output="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/icefrog2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 icefrog2"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icefrog2/fast">
+				<Option output="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/icefrog2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 icefrog2/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/main.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Caixa.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Caixa.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Conteiner.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Conteiner.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Ponto.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Ponto.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/PontoFlutuante.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/PontoFlutuante.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Problema.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/Problema.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/TipoCaixa.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/entidades/TipoCaixa.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/util/Util.cpp">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/src/util/Util.h">
+			<Option target="icefrog2"/>
+		</Unit>
+		<Unit filename="C:/Users/temur/Documents/repos/icefrog2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

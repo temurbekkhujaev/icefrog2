@@ -1,0 +1,3 @@
+C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/CMakeFiles/icefrog2.dir
+C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/temur/Documents/repos/icefrog2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
