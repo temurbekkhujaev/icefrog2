@@ -5,6 +5,13 @@
 #include "Util.h"
 #include <iostream>
 
+const std::wstring Util::NOME_ARQUIVO_LOG_RESUMO_HB = L".\\log\\resumo_phase1.txt";
+
+const std::wstring Util::NOME_ARQUIVO_LOG_RESUMO_GA = L".\\log\\resumo_phase2.txt";
+
+const std::wstring Util::NOME_ARQUIVO_LOG_PROBLEMAS = L".\\log\\resumo_errors.txt";
+
+const std::wstring Util::NOME_ARQUIVO_LOG_RESUMO_TEMP = L".\\log\\resumo_temp.txt";
 
 std::vector<TipoCaixa> Util::listTipoCaixaRotacoes(TipoCaixa tipoCaixaOriginal) {
 
@@ -33,13 +40,13 @@ std::vector<TipoCaixa> Util::listTipoCaixaRotacoes(TipoCaixa tipoCaixaOriginal) 
     return listTipoCaixaRotacoes;
 }
 
-void Util::appendArquivo(std::string conteudo, std::string fileName) {
+void Util::appendArquivo(std::wstring conteudo, std::wstring fileName) {
     try {
         //TODO: change to filestream
 //        PrintWriter out = new PrintWriter(new FileWriter(fileName, true));
 //        out.print(conteudo + "\n");
 //        out.close();
-        std::cout << conteudo << std::endl;
+        std::wcout << conteudo << std::endl;
     } catch (std::exception e) {
 //        System.err.println(e.getMessage());
         std::cout << e.what() << std::endl;

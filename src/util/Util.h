@@ -8,29 +8,31 @@
 
 class Util {
 public:
-    const std::string NOME_ARQUIVO_LOG_RESUMO_HB = ".\\log\\resumo_phase1.txt";
+    static const std::wstring NOME_ARQUIVO_LOG_RESUMO_HB;
 
-    const std::string NOME_ARQUIVO_LOG_RESUMO_GA = ".\\log\\resumo_phase2.txt";
+    static const std::wstring NOME_ARQUIVO_LOG_RESUMO_GA;
 
-    const std::string NOME_ARQUIVO_LOG_PROBLEMAS = ".\\log\\resumo_errors.txt";
+    static const std::wstring NOME_ARQUIVO_LOG_PROBLEMAS;
 
-    const std::string NOME_ARQUIVO_LOG_RESUMO_TEMP = ".\\log\\resumo_temp.txt";
-    const std::string ordemCores[21] = {"[1 0 0]" /* vermelho */, "[1 0 0]" /* vermelho */,
-                                        "[1 0 0]" /* vermelho */, "[0 1 0]" /* verde */, "[0 1 0]" /* verde */,
-                                        "[0 1 0]" /* verde */,
-                                        "[0 0 1]" /* azul */, "[0 0 1]" /* azul */, "[0 0 1]" /* azul */,
-                                        "[1 1 0]" /* amarelo */,
-                                        "[1 1 0]" /* amarelo */, "[0 1 0]" /* verde */, "[0 0 1]" /* azul */,
-                                        "[0 0 1]" /* azul */,
-                                        "[0 0 1]" /* azul */, "[1 1 0]" /* amarelo */, "[1 1 0]" /* amarelo */,
-                                        "[1 1 0]" /* amarelo */,
-                                        "[1 0 1]" /* rosa */, "[1 0 1]" /* rosa */, "[1 0 1]" /* rosa */
+    static const std::wstring NOME_ARQUIVO_LOG_RESUMO_TEMP;
+
+    const std::wstring ordemCores[21] = {L"[1 0 0]" /* vermelho */, L"[1 0 0]" /* vermelho */,
+                                         L"[1 0 0]" /* vermelho */, L"[0 1 0]" /* verde */, L"[0 1 0]" /* verde */,
+                                         L"[0 1 0]" /* verde */,
+                                         L"[0 0 1]" /* azul */, L"[0 0 1]" /* azul */, L"[0 0 1]" /* azul */,
+                                         L"[1 1 0]" /* amarelo */,
+                                         L"[1 1 0]" /* amarelo */, L"[0 1 0]" /* verde */, L"[0 0 1]" /* azul */,
+                                         L"[0 0 1]" /* azul */,
+                                         L"[0 0 1]" /* azul */, L"[1 1 0]" /* amarelo */, L"[1 1 0]" /* amarelo */,
+                                         L"[1 1 0]" /* amarelo */,
+                                         L"[1 0 1]" /* rosa */, L"[1 0 1]" /* rosa */, L"[1 0 1]" /* rosa */
     };
 
 
     static std::vector<TipoCaixa> listTipoCaixaRotacoes(TipoCaixa tipoCaixaOriginal);
 
-    static void appendArquivo(std::string conteudo, std::string fileName);
+    static void appendArquivo(std::wstring conteudo, std::wstring fileName);
+
 
 };
 

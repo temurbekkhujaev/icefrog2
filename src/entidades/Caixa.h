@@ -10,6 +10,10 @@
 
 class Caixa {
 public:
+    Caixa();
+
+    Caixa(Caixa *pCaixa);
+
     int x = -1;
     int y = -1;
     int z = -1;
@@ -19,8 +23,11 @@ public:
     int d;
     int idCaixa;
     static int CONTADOR_CAIXA;
-    std::string toString();
-    bool temIntersecao(Conteiner conteiner);
+    std::wstring toString();
+    bool temIntersecao(Conteiner conteiner) const;
+    bool temIntersecao(Caixa outraCaixa) ;
+
+
 };
 
 
